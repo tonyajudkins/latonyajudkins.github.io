@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tonyajudkins.com/static/css/main.8236b94f.chunk.css",
+    "main.js": "/tonyajudkins.com/static/js/main.15d85f1e.chunk.js",
+    "main.js.map": "/tonyajudkins.com/static/js/main.15d85f1e.chunk.js.map",
+    "runtime-main.js": "/tonyajudkins.com/static/js/runtime-main.6a344f33.js",
+    "runtime-main.js.map": "/tonyajudkins.com/static/js/runtime-main.6a344f33.js.map",
+    "static/js/2.6cc54a5a.chunk.js": "/tonyajudkins.com/static/js/2.6cc54a5a.chunk.js",
+    "static/js/2.6cc54a5a.chunk.js.map": "/tonyajudkins.com/static/js/2.6cc54a5a.chunk.js.map",
+    "index.html": "/tonyajudkins.com/index.html",
+    "precache-manifest.14d4459bf3b02f2485786b24e1e06206.js": "/tonyajudkins.com/precache-manifest.14d4459bf3b02f2485786b24e1e06206.js",
+    "service-worker.js": "/tonyajudkins.com/service-worker.js",
+    "static/css/main.8236b94f.chunk.css.map": "/tonyajudkins.com/static/css/main.8236b94f.chunk.css.map",
+    "static/js/2.6cc54a5a.chunk.js.LICENSE.txt": "/tonyajudkins.com/static/js/2.6cc54a5a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a344f33.js",
+    "static/js/2.6cc54a5a.chunk.js",
+    "static/css/main.8236b94f.chunk.css",
+    "static/js/main.15d85f1e.chunk.js"
+  ]
+}
