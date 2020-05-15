@@ -1,3 +1,7 @@
-.App {
-  text-align: center;
+@import './Tonya/tonya.css';
+
+body {
+  background: lightgray;
+  font-family: Roboto, sans-serif;
+  margin: 1%;
 }
