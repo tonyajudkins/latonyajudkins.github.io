@@ -1,9 +1,17 @@
-footer {
-    color: lightgray;
-    font-size: 5vh;
-    position:absolute;
-    bottom:0;
-    right:0;
+@import "Components/BlogRoom.css";
+@import "Components/PhotoGallery.css";
+
+.container{
+    display: grid;
+    grid-template-columns: 13% auto 50%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+            ". header right"
+            "main main main3"
+            "footer footer footer";
+}
+.header {
+    grid-area: header;
 }
 .myName {
     font-size: 8vh;
@@ -15,20 +23,22 @@ footer {
     font-size: 4vh;
     font-family: "Lucida Handwriting", sans-serif;
     color: blue;
-    margin-left: 10%;
+    margin-left: 25%;
 }
-img, .me {
+.me {
     margin-left: 6%;
     margin-top: 1%;
     border-radius: 40%;
     filter: sepia(65%);
 }
 .talkBubble {
-    width: 20%;
-    margin-bottom: 1%;
-    margin-right: 1%;
-    padding: 5px;
-    background: midnightblue;
+    width: 70%;
+    margin-bottom: 5%;
+    margin-left: -25%;
+    padding: 1.2vh 0 1.2vh 1.2vh;
+    font-size: 3vh;
+    text-align: center;
+    background: #3b3b82;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -36,14 +46,48 @@ img, .me {
 .talkBubble:before {
     content: "";
     position: absolute;
-    right: 100%;
-    top: 26px;
+    right: 124%;
+    top: .5vh;
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
-    border-right: 26px solid midnightblue;
+    border-right: 26px solid #3b3b82;
     border-bottom: 13px solid transparent;
 }
+
 .beautiful {
+    width: 70%;
+    margin-bottom: 5%;
+    margin-right: 13%;
+    padding: 1.2vh;
+    font-size: 3vh;
+    text-align: center;
+    background: midnightblue;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     float: right;
+}
+.beautiful:before {
+    content: "";
+    position: absolute;
+    left: 85%;
+    bottom: 1.9vh;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid transparent;
+    border-left: 26px solid midnightblue;
+    border-top: 13px solid transparent;
+}
+.blog {
+    grid-area: right;
+    background-color: #cac9c9;
+    border-radius: 2%;
+}
+.bb {
+    grid-area: right;
+    background-color: aqua;
+}
+.photo {
+    grid-area: main3;
 }

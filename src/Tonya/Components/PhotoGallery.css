@@ -1,0 +1,11 @@
+.photoGallery {
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 10% 0 1% 10%;
+}
+.gallery {
+    font-size: 12vh;
+    color: indigo;
+    margin-left: 10%;
+    margin-bottom: 22%;
+}
