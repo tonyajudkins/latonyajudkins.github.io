@@ -9,8 +9,8 @@ class Tonya extends Component {
                 <div className={'subTitle'}>-based on a true story</div>
                 <img className={'me'} src={me}  alt='beingMe' width='300' height='320' />
                 <footer className={'talkBubble'}>
-                   <div> &nbsp;-Hello World</div>
-                <div className={'beautiful'}>-Hello Beautiful</div>
+                   <div> &nbsp;Hello World</div>
+                <div className={'beautiful'}>Hello Beautiful</div>
             </footer>
             </div>
         );
