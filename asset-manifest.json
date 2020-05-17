@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/latonyajudkins.github.io/static/css/main.f6cffc85.chunk.css",
-    "main.js": "/latonyajudkins.github.io/static/js/main.47565533.chunk.js",
-    "main.js.map": "/latonyajudkins.github.io/static/js/main.47565533.chunk.js.map",
-    "runtime-main.js": "/latonyajudkins.github.io/static/js/runtime-main.107d0f11.js",
-    "runtime-main.js.map": "/latonyajudkins.github.io/static/js/runtime-main.107d0f11.js.map",
-    "static/js/2.c0343868.chunk.js": "/latonyajudkins.github.io/static/js/2.c0343868.chunk.js",
-    "static/js/2.c0343868.chunk.js.map": "/latonyajudkins.github.io/static/js/2.c0343868.chunk.js.map",
-    "index.html": "/latonyajudkins.github.io/index.html",
-    "precache-manifest.989404536db39e0888e422ed635ff555.js": "/latonyajudkins.github.io/precache-manifest.989404536db39e0888e422ed635ff555.js",
-    "service-worker.js": "/latonyajudkins.github.io/service-worker.js",
-    "static/css/main.f6cffc85.chunk.css.map": "/latonyajudkins.github.io/static/css/main.f6cffc85.chunk.css.map",
-    "static/js/2.c0343868.chunk.js.LICENSE.txt": "/latonyajudkins.github.io/static/js/2.c0343868.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.a85180bc.chunk.css",
+    "main.js": "/static/js/main.4999e22a.chunk.js",
+    "main.js.map": "/static/js/main.4999e22a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.405c5691.js",
+    "runtime-main.js.map": "/static/js/runtime-main.405c5691.js.map",
+    "static/js/2.31003dc0.chunk.js": "/static/js/2.31003dc0.chunk.js",
+    "static/js/2.31003dc0.chunk.js.map": "/static/js/2.31003dc0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ba4d8457e9fb14127006b3caae8bff53.js": "/precache-manifest.ba4d8457e9fb14127006b3caae8bff53.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a85180bc.chunk.css.map": "/static/css/main.a85180bc.chunk.css.map",
+    "static/js/2.31003dc0.chunk.js.LICENSE.txt": "/static/js/2.31003dc0.chunk.js.LICENSE.txt",
+    "static/media/beingMe.jpg": "/static/media/beingMe.cfc7ae3c.jpg",
+    "static/media/built.jpg": "/static/media/built.2d098772.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.107d0f11.js",
-    "static/js/2.c0343868.chunk.js",
-    "static/css/main.f6cffc85.chunk.css",
-    "static/js/main.47565533.chunk.js"
+    "static/js/runtime-main.405c5691.js",
+    "static/js/2.31003dc0.chunk.js",
+    "static/css/main.a85180bc.chunk.css",
+    "static/js/main.4999e22a.chunk.js"
   ]
 }
