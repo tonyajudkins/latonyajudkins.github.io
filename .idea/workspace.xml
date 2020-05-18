@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/girlCoder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/GirlCoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/TechLife.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/TechLife.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precache-manifest.0d57b71af96eda60980b92cf831d010a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.js" afterDir="false" />
-    </list>
+    <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +9,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -48,10 +38,10 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Assets" />
     </key>
   </component>
