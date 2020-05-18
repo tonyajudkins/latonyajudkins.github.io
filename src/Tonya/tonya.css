@@ -1,5 +1,7 @@
 @import "Components/BlogRoom.css";
 @import "Components/PhotoGallery.css";
+@import "Components/TechLife.css";
+@import "Components/myCard.css";
 
 .container{
     display: grid;
@@ -91,4 +93,12 @@
 }
 .photo {
     grid-area: main3;
+}
+.girlCoder {
+    grid-area: main;
+    margin: -19% 0 0 25%;
+    transform: rotate(30deg);
+}
+.techLife {
+    grid-area: main;
 }
