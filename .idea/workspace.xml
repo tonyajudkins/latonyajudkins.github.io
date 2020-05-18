@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.07800020889ce5beee186136d84158f6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.ba4d8457e9fb14127006b3caae8bff53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.7f68a8fb.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.7f68a8fb.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.a85180bc.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.a85180bc.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.31003dc0.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.31003dc0.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.31003dc0.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.4999e22a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.4999e22a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/built.2d098772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
