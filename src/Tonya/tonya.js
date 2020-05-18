@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import me from '../Assets/beingMe.jpg';
 import BlogRoom from "./Components/BlogRoom";
 import PhotoGallery from "./Components/PhotoGallery";
+import GirlCoder from "./Components/GirlCoder";
+import TechLife from "./Components/TechLife";
+import MyCard from "./Components/myCard";
 
 class Tonya extends Component {
     render() {
@@ -14,8 +17,16 @@ class Tonya extends Component {
                 <img className={'me'} src={me}  alt='beingMe' width='300' height='320' />
                 
               </div>
+              
+                <MyCard/>
+                
                 <BlogRoom />
                 <PhotoGallery />
+                
+                <GirlCoder/>
+                
+                <TechLife/>
+                
             </div>
         );
     }
