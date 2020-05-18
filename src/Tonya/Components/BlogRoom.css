@@ -1,11 +1,14 @@
 .blogRoom {
     font-size: 5vh;
     font-weight: bolder;
-    margin: 10% 0 1% 10%;
+    margin: 2% 0 4% 10%;
 }
 li {
     margin-left: 10%;
     margin-bottom: 2%;
+}
+ul {
+    margin-bottom: 10%;
 }
 .blogTitle {
     font-size: 3vh;

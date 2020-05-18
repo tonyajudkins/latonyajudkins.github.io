@@ -83,6 +83,7 @@
     grid-area: right;
     background-color: #cac9c9;
     border-radius: 2%;
+    margin-top: 5%;
 }
 .bb {
     grid-area: right;

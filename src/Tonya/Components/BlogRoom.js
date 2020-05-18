@@ -1,5 +1,6 @@
 import React from 'react';
 import built from '../../Assets/built.jpg';
+import video from '../../Assets/blackHistory.mp4'
 
 const BlogRoom = () => {
   
@@ -26,8 +27,8 @@ const BlogRoom = () => {
         </li>
         <li className={'blogTitle bh'}>
           What Black History means to me
-          {/*<video src={video} width="370" height="225" controls>
-                    </video>*/}
+          <video src={video} width="370" height="225" controls>
+                    </video>
         </li>
       </ul>
     </div>
