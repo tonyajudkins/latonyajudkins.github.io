@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import built from '../../Assets/built.jpg';
-/*import video from '../../Assets/blackHistory1.mp4'
-import video2 from '../../Assets/blackHistory2.mp4'*/
+import video from '../../Assets/blackHistory1.mp4'
+import video2 from '../../Assets/blackHistory2.mp4'
 
 
 class BlogRoom extends Component {
@@ -40,8 +40,8 @@ class BlogRoom extends Component {
           </li>
           <li className={'blogTitle bh'}>
             What Black History means to me
-            {/*<video onEnded={() => myCallback()} id={'myvideo'} src={playVideo} width="370" height="225" controls>
-                    </video>*/}
+            <video onEnded={() => myCallback()} id={'myvideo'} src={playVideo} width="370" height="225" controls>
+                    </video>
           </li>
         </ul>
       </div>
