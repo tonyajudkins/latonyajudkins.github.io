@@ -27,3 +27,7 @@ ul {
 video {
     border-radius: 15%;
 }
+video:active, video:focus {
+    outline: none;
+
+}

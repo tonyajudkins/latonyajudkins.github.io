@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
+import video from "../../Assets/blackHistory1.mp4";
+import video2 from "../../Assets/blackHistory2.mp4";
 
 class PhotoGallery extends Component {
+  
   render() {
+    
     return (
       <div className={'photo'}>
         <div className={'photoGallery'}>
