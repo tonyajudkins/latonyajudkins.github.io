@@ -12,6 +12,7 @@ ul {
 }
 .blogTitle {
     font-size: 3vh;
+    text-decoration: underline;
 }
 .BlogAuthor {
 
@@ -23,6 +24,7 @@ ul {
 }
 .bh {
     color: midnightblue;
+    text-decoration: none !important;
 }
 video {
     border-radius: 15%;
