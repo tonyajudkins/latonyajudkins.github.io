@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/linkedIn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/resume.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/resume.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/resumeWeb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/webResume.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/myCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/myCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +36,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Assets" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assets" />
     </key>
   </component>
   <component name="RunDashboard">
