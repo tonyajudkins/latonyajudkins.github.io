@@ -14,3 +14,21 @@
     font: 2.3vh Helvetica;
     color: deeppink;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px)
+and (-webkit-device-pixel-ratio: 2)
+    /*and (orientation: landscape) {*/ {
+.life
+{
+    font-size: 2vh;
+    margin: 1% 0 0 1%;
+    padding: 1% 1% 0 0;
+    font-family: "Lucida Grande";
+}
+    .wit {
+        font: 2.2vh Helvetica;
+    }
+
+}

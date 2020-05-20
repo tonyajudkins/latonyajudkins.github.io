@@ -14,9 +14,6 @@ ul {
     font-size: 3vh;
     text-decoration: underline;
 }
-.BlogAuthor {
-
-}
 .built {
     margin-left: 16%;
     margin-top: 1%;
@@ -32,4 +29,53 @@ video {
 video:active, video:focus {
     outline: none;
 
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px)
+and (-webkit-device-pixel-ratio: 2)
+    /*and (orientation: landscape) {*/ {
+    .blogRoom {
+        font-size: 3.8vh;
+        font-weight: bold;
+        margin: 0 0 -3% 5%;
+    }
+    li {
+        margin-left: 0;
+        margin-bottom: 2%;
+    }
+    ul {
+        margin-bottom: 10%;
+    }
+    .blogTitle {
+        font-size: 2.3vh;
+        text-decoration: underline;
+    }
+    .blogList {
+        padding-left: 1%;
+        width: 105%
+    }
+    .built {
+        margin-left: 38%;
+        margin-top: 1%;
+        border-radius: 20%;
+        width: 65%;
+    }
+    .builtTitle {
+        margin-top: -5%;
+    }
+    .bh {
+        color: midnightblue;
+        margin-top: 8%;
+        text-decoration: none !important;
+    }
+    video {
+        border-radius: 15%;
+    }
+    #myvideo {
+        margin-top: 2%;
+        width: 100%;
+        height: 100%;
+    }
 }

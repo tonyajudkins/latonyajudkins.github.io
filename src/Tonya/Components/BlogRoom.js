@@ -20,7 +20,7 @@ class BlogRoom extends Component {
     return (
       <div className={'blog'}>
         <div className={'blogRoom'}>Blog Room</div>
-        <ul>
+        <ul className={'blogList'}>
           <li>
             <a
               href={'https://www.linkedin.com/pulse/change-starts-reimagining-yolanda-seals-coffield/'}
@@ -30,7 +30,7 @@ class BlogRoom extends Component {
             </a>
           </li>
           <br />
-          <li>
+          <li className={'builtTitle'}>
             <a
               href="https://www.builtinchicago.org/2020/03/12/why-engineers-use-pair-programming?utm_source=press_kit&utm_medium=social_media&utm_campaign=statsperform"
               className={'blogTitle'}

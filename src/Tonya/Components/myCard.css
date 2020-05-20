@@ -19,3 +19,27 @@ ul {
 a{
     text-decoration: none;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px)
+and (-webkit-device-pixel-ratio: 2)
+    /*and (orientation: landscape) {*/ {
+
+    .card {
+        padding-left: 0;
+        margin-left: -12%;
+    }
+    .resume {
+        margin-top: 45%;
+        margin-left: 0;
+    }
+    .social {
+        padding: 3%;
+        font-size: 2.3vh;
+    }
+    .resume {
+        display: none;
+        font-size: 2.6vh;
+    }
+}

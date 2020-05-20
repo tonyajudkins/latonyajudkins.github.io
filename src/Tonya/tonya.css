@@ -88,10 +88,6 @@
     border-radius: 2%;
     margin-top: 5%;
 }
-.bb {
-    grid-area: right;
-    background-color: aqua;
-}
 .photo {
     grid-area: main3;
 }
@@ -119,27 +115,34 @@
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 1346px)
+and (-webkit-device-pixel-ratio: 2)
     /*and (orientation: landscape) {*/ {
 
     .container{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: calc(350 / 1920 * 100%) calc(1600 / 1920 * 100%);
         grid-template-rows: auto auto auto;
         grid-template-areas:
-                " header corner"
+                "top top"
                 "main main"
-                "main3 right ";
+                "main2 main2";
+    }
+    .top {
+        grid-area: top;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-areas: "header corner";
     }
     .header {
         grid-area: header;
-        margin-left: 20%;
     }
     .myName {
-        width: 150%;
-        font-size: 8vh;
+        width: 107%;
+        font-size: 6vh;
         font-family: "Lucida Calligraphy", sans-serif;
         font-weight: bold;
         color: midnightblue;
+        margin-left: 0;
     }
     .subTitle {
         width: 150%;
@@ -149,44 +152,54 @@ and (max-device-width: 1346px)
         margin-left: 25%;
     }
     .me {
-        margin-left: 6%;
+        width: 85%;
+        height: 70%;
+        margin-left: 3%;
         margin-top: 5%;
         border-radius: 40%;
         filter: sepia(65%);
     }
+    .main2 {
+        grid-area: main2;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        grid-template-areas: "photo blog";
+
+    }
     .blog {
-        grid-area: right;
+        grid-area: blog;
         background-color: #cac9c9;
         border-radius: 2%;
         margin-top: 15%;
         padding-right: 10%;
     }
-    .bb {
-        grid-area: right;
-        background-color: aqua;
-    }
     .photo {
-        grid-area: main3;
+        grid-area: photo;
         margin-top: 10%;
     }
     .girlCoder {
         grid-area: main;
-        margin: 0 0 30% 54%;
+        width: 45%;
+        margin: 3% 0 30% 35%;
         transform: rotate(30deg);
     }
+    .girl {
+        width: 30%;
+        height: 15%;
+    }
     .coder {
-        font-size: 4vh;
+        font-size: 2vh;
         margin-left: -10%;
         font-weight: bold;
         color: #6c016d;
     }
     .techLife {
         grid-area: main;
-        margin-top: 15%;
+        margin-top: 25%;
     }
     .myCard {
         grid-area: corner;
-        margin-top: 5%;
-        margin-left: 50%;
+        margin-top: 185%;
+        margin-left: 0;
     }
 }

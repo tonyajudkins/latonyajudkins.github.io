@@ -37,14 +37,16 @@ and (max-device-width: 1346px)
   /*and (orientation: landscape) {*/ {
   .footer {
     width: 50%;
-    margin: 1% -115% auto auto;
+    padding-top: 3%;
+    margin-right: -20%;
+    z-index: -1;
+
   }
   .copyright {
-    font-size: 3vh;
-    z-index: 50;
+    font-size: 2vh;
     grid-area: left;
-    margin-left: 55%;
+    margin-left: 25%;
     width: 100%;
-    padding-top: 75%;
+    padding-top: 15%;
   }
 }

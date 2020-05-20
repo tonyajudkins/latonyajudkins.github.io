@@ -13,7 +13,7 @@ function App() {
       <div className={'copyright'}> &copy; 1987 Tonya Judkins </div>
       
       <footer className={'footer'}>
-        <img src={helloWorld} className={'helloWorld'}/>
+        <img src={helloWorld} className={'helloWorld'} width={'60%'}/>
       </footer>
       
       </div>

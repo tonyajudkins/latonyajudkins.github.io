@@ -10,18 +10,23 @@ class Tonya extends Component {
     render() {
         return (
             <div className={'container'}>
-              <div className={'header'}>
+              
+              <div className={'top'}>
+                <div className={'header'}>
                 
                 <div className={'myName'}>Tonya Judkins</div>
                 <div className={'subTitle'}>-based on a true story</div>
-                <img className={'me'} src={me}  alt='beingMe' width='320' height='320' />
+                <img className={'me'} src={me}  alt='beingMe' width='30%' height='25%' />
                 
               </div>
               
                 <MyCard/>
-                
+              </div>
+              
+              <div className={'main2'} >
                 <BlogRoom />
                 <PhotoGallery />
+            </div>
                 
                 <GirlCoder/>
                 
