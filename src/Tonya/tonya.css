@@ -20,25 +20,26 @@
     font-family: "Lucida Calligraphy", sans-serif;
     font-weight: bold;
     color: midnightblue;
+    margin-left: -25%;
 }
 .subTitle {
     font-size: 4vh;
     font-family: "Lucida Handwriting", sans-serif;
     color: blue;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 .me {
-    margin-left: 6%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
     border-radius: 40%;
     filter: sepia(65%);
 }
 .talkBubble {
-    width: 70%;
-    margin-bottom: 5%;
-    margin-left: -25%;
-    padding: 1.2vh 0 1.2vh 1.2vh;
-    font-size: 3vh;
+    width: 50%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1vh;
+    font-size: 2vh;
     text-align: center;
     background: #3b3b82;
     -moz-border-radius: 10px;
@@ -48,21 +49,21 @@
 .talkBubble:before {
     content: "";
     position: absolute;
-    right: 124%;
-    top: .5vh;
+    right: 93.5%;
+    top: 33.5vh;
     width: 0;
     height: 0;
-    border-top: 13px solid transparent;
-    border-right: 26px solid #3b3b82;
-    border-bottom: 13px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #3b3b82;
+    border-bottom: 10px solid transparent;
 }
 
 .beautiful {
-    width: 70%;
+    width: 50%;
     margin-bottom: 5%;
     margin-right: 13%;
-    padding: 1.2vh;
-    font-size: 3vh;
+    padding: 1vh;
+    font-size: 2vh;
     text-align: center;
     background: midnightblue;
     -moz-border-radius: 10px;
@@ -74,12 +75,12 @@
     content: "";
     position: absolute;
     left: 85%;
-    bottom: 1.9vh;
+    bottom: 1.7vh;
     width: 0;
     height: 0;
-    border-bottom: 13px solid transparent;
-    border-left: 26px solid midnightblue;
-    border-top: 13px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid midnightblue;
+    border-top: 10px solid transparent;
 }
 .blog {
     grid-area: right;
@@ -96,13 +97,96 @@
 }
 .girlCoder {
     grid-area: main;
-    margin: -19% 0 0 25%;
+    margin: -19% 0 0 45%;
     transform: rotate(30deg);
+}
+.coder {
+    font-size: 3vh;
+    margin-left: -10%;
+    font-weight: bold;
+    color: #6c016d;
 }
 .techLife {
     grid-area: main;
 }
 .myCard {
     grid-area: corner;
-    margin-top: 150%;
+    margin-top: 120%;
+    margin-left: -25%;
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px)
+    /*and (orientation: landscape) {*/ {
+
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+                " header corner"
+                "main main"
+                "main3 right ";
+    }
+    .header {
+        grid-area: header;
+        margin-left: 20%;
+    }
+    .myName {
+        width: 150%;
+        font-size: 8vh;
+        font-family: "Lucida Calligraphy", sans-serif;
+        font-weight: bold;
+        color: midnightblue;
+    }
+    .subTitle {
+        width: 150%;
+        font-size: 4vh;
+        font-family: "Lucida Handwriting", sans-serif;
+        color: blue;
+        margin-left: 25%;
+    }
+    .me {
+        margin-left: 6%;
+        margin-top: 5%;
+        border-radius: 40%;
+        filter: sepia(65%);
+    }
+    .blog {
+        grid-area: right;
+        background-color: #cac9c9;
+        border-radius: 2%;
+        margin-top: 15%;
+        padding-right: 10%;
+    }
+    .bb {
+        grid-area: right;
+        background-color: aqua;
+    }
+    .photo {
+        grid-area: main3;
+        margin-top: 10%;
+    }
+    .girlCoder {
+        grid-area: main;
+        margin: 0 0 30% 54%;
+        transform: rotate(30deg);
+    }
+    .coder {
+        font-size: 4vh;
+        margin-left: -10%;
+        font-weight: bold;
+        color: #6c016d;
+    }
+    .techLife {
+        grid-area: main;
+        margin-top: 15%;
+    }
+    .myCard {
+        grid-area: corner;
+        margin-top: 5%;
+        margin-left: 50%;
+    }
 }

@@ -29,6 +29,7 @@ class BlogRoom extends Component {
               Change starts by reimagining <span className={'BlogAuthor'}>by: Yolanda Seals Coffield</span>
             </a>
           </li>
+          <br />
           <li>
             <a
               href="https://www.builtinchicago.org/2020/03/12/why-engineers-use-pair-programming?utm_source=press_kit&utm_medium=social_media&utm_campaign=statsperform"

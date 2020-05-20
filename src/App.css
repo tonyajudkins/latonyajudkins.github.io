@@ -8,12 +8,43 @@ body {
   margin: 1%;
   position: relative;
 }
-
+.footContainer {
+  display: grid;
+  grid-template-columns: auto auto;grid-template-areas:
+        " left right ";
+}
+.copyright {
+  font-size: 3vh;
+  z-index: 50;
+  grid-area: left;
+  margin-left: 55%;
+  width: 100%;
+  padding-top: 40%;
+}
 .footer {
+  grid-area: right;
   color: lightgrey;
-  font-size: 5vh;
   position: absolute;
+  padding-top: 18%;
   right: 0;
   width: 15%;
   z-index: 150;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px)
+  /*and (orientation: landscape) {*/ {
+  .footer {
+    width: 50%;
+    margin: 1% -115% auto auto;
+  }
+  .copyright {
+    font-size: 3vh;
+    z-index: 50;
+    grid-area: left;
+    margin-left: 55%;
+    width: 100%;
+    padding-top: 75%;
+  }
 }

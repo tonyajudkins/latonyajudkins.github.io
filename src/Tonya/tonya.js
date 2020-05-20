@@ -14,7 +14,7 @@ class Tonya extends Component {
                 
                 <div className={'myName'}>Tonya Judkins</div>
                 <div className={'subTitle'}>-based on a true story</div>
-                <img className={'me'} src={me}  alt='beingMe' width='300' height='320' />
+                <img className={'me'} src={me}  alt='beingMe' width='320' height='320' />
                 
               </div>
               
