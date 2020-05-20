@@ -1,6 +1,6 @@
 @import './Tonya/tonya.css';
 
-html, body { height: 100%}
+root, html, body { height: 100%}
 
 body {
   background: lightgray;
@@ -14,18 +14,18 @@ body {
         " left right ";
 }
 .copyright {
-  font-size: 3vh;
+  font-size: 2vh;
   z-index: 50;
   grid-area: left;
-  margin-left: 55%;
   width: 100%;
-  padding-top: 40%;
+  padding-top: 20%;
+  padding-left: 45%;
 }
 .footer {
   grid-area: right;
   color: lightgrey;
   position: absolute;
-  padding-top: 18%;
+  padding-top: 10%;
   right: 0;
   width: 15%;
   z-index: 150;
@@ -38,15 +38,16 @@ and (max-device-width: 1346px)
   .footer {
     width: 50%;
     padding-top: 3%;
-    margin-right: -20%;
+    margin-right: -2%;
+    right: -20%;
     z-index: -1;
 
   }
   .copyright {
-    font-size: 2vh;
+    font-size: 1.5vh;
     grid-area: left;
-    margin-left: 25%;
     width: 100%;
-    padding-top: 15%;
+    padding-top: 17%;
+    padding-left: 25%;
   }
 }

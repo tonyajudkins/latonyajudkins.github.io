@@ -5,84 +5,46 @@
 
 .container{
     display: grid;
-    grid-template-columns: 13% auto 50%;
+    grid-template-columns: auto auto 50%;
     grid-template-rows: auto auto auto;
     grid-template-areas:
-            "corner header right"
-            "main main main3"
-            "footer footer footer";
+            "header header right"
+            "main main right";
+}
+.top {
+    grid-area: header;
+    grid-template-columns: 13% 87%;
+    grid-template-areas: "corner head";
+}
+.main2 {
+    grid-area: right;
 }
 .header {
-    grid-area: header;
+    margin-right: 0;
+    width: 70%;
+    grid-area: head;
 }
 .myName {
     font-size: 8vh;
     font-family: "Lucida Calligraphy", sans-serif;
     font-weight: bold;
     color: midnightblue;
-    margin-left: -25%;
 }
 .subTitle {
     font-size: 4vh;
     font-family: "Lucida Handwriting", sans-serif;
     color: blue;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .me {
-    margin-left: 2%;
+    width: 60%;
+    margin-left: 42%;
     margin-top: 2%;
     border-radius: 40%;
     filter: sepia(65%);
 }
-.talkBubble {
-    width: 50%;
-    margin-bottom: 3%;
-    margin-left: 5%;
-    padding: 1vh;
-    font-size: 2vh;
-    text-align: center;
-    background: #3b3b82;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-.talkBubble:before {
-    content: "";
-    position: absolute;
-    right: 93.5%;
-    top: 33.5vh;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-right: 20px solid #3b3b82;
-    border-bottom: 10px solid transparent;
-}
-
-.beautiful {
-    width: 50%;
-    margin-bottom: 5%;
-    margin-right: 13%;
-    padding: 1vh;
-    font-size: 2vh;
-    text-align: center;
-    background: midnightblue;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    float: right;
-}
-.beautiful:before {
-    content: "";
-    position: absolute;
-    left: 85%;
-    bottom: 1.7vh;
-    width: 0;
-    height: 0;
-    border-bottom: 10px solid transparent;
-    border-left: 20px solid midnightblue;
-    border-top: 10px solid transparent;
-}
 .blog {
+    width: 100%;
     grid-area: right;
     background-color: #cac9c9;
     border-radius: 2%;
@@ -93,7 +55,7 @@
 }
 .girlCoder {
     grid-area: main;
-    margin: -19% 0 0 45%;
+    margin: -2% 0 0 55%;
     transform: rotate(30deg);
 }
 .coder {
@@ -104,23 +66,24 @@
 }
 .techLife {
     grid-area: main;
+    margin-top: 13%;
 }
 .myCard {
     grid-area: corner;
-    margin-top: 120%;
     margin-left: -25%;
+    margin-top: -20%;
+    z-index: -1;
 }
 
 
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 1346px)
-and (-webkit-device-pixel-ratio: 2)
     /*and (orientation: landscape) {*/ {
 
     .container{
         display: grid;
-        grid-template-columns: calc(350 / 1920 * 100%) calc(1600 / 1920 * 100%);
+        grid-template-columns:auto auto;
         grid-template-rows: auto auto auto;
         grid-template-areas:
                 "top top"
