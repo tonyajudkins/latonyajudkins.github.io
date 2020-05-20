@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9288dbe0.chunk.css",
+    "main.js": "/static/js/main.12b2dce4.chunk.js",
+    "main.js.map": "/static/js/main.12b2dce4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.405c5691.js",
+    "runtime-main.js.map": "/static/js/runtime-main.405c5691.js.map",
+    "static/js/2.191aff7e.chunk.js": "/static/js/2.191aff7e.chunk.js",
+    "static/js/2.191aff7e.chunk.js.map": "/static/js/2.191aff7e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.62d13b3c3ab3873b8cb381c29592a5c0.js": "/precache-manifest.62d13b3c3ab3873b8cb381c29592a5c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9288dbe0.chunk.css.map": "/static/css/main.9288dbe0.chunk.css.map",
+    "static/js/2.191aff7e.chunk.js.LICENSE.txt": "/static/js/2.191aff7e.chunk.js.LICENSE.txt",
+    "static/media/beingMe.jpg": "/static/media/beingMe.cfc7ae3c.jpg",
+    "static/media/blackHistory1.mp4": "/static/media/blackHistory1.8197a294.mp4",
+    "static/media/blackHistory2.mp4": "/static/media/blackHistory2.bbd63968.mp4",
+    "static/media/built.jpg": "/static/media/built.2d098772.jpg",
+    "static/media/facebook.svg": "/static/media/facebook.2200d0d4.svg",
+    "static/media/girlCoder.png": "/static/media/girlCoder.71d3e4a8.png",
+    "static/media/github.svg": "/static/media/github.ec5bc1b3.svg",
+    "static/media/linkedIn.svg": "/static/media/linkedIn.88357f2f.svg",
+    "static/media/resume.svg": "/static/media/resume.cf5e4039.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.405c5691.js",
+    "static/js/2.191aff7e.chunk.js",
+    "static/css/main.9288dbe0.chunk.css",
+    "static/js/main.12b2dce4.chunk.js"
+  ]
+}
