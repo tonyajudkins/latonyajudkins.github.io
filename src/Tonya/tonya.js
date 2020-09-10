@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import me from '../Assets/beingMe.jpg';
+import me from '../Assets/tj.jpg';
 import BlogRoom from "./Components/BlogRoom";
 import PhotoGallery from "./Components/PhotoGallery";
-import GirlCoder from "./Components/GirlCoder";
 import TechLife from "./Components/TechLife";
 import MyCard from "./Components/myCard";
 

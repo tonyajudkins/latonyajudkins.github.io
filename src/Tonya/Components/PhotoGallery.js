@@ -11,8 +11,18 @@ class PhotoGallery extends Component {
         <div className={'photoGallery'}>
           Moments to Remember
         </div>
+        <br />
+        
+        <a
+          href={'https://www.youtube.com/watch?v=FzkGGJmqi88'}
+          className={'blogTitle first'}
+          target="_blank"> My First Technical Presentation
+        </a>
+        <br />
+        <br />
+        <br />
         <div className={'gallery'}>
-          Coming Soon <span>&#129335;&#127997;</span><span>&#129335;&#127997;</span><span>&#129335;&#127997;</span>
+          Photos Coming Soon <span>&#129335;&#127997;</span><span>&#129335;&#127997;</span><span>&#129335;&#127997;</span>
         </div>
       </div>
     );

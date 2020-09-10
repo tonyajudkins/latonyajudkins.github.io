@@ -37,11 +37,11 @@
     margin-left: 15%;
 }
 .me {
+    transform: rotate(90deg);
     width: 60%;
     margin-left: 42%;
     margin-top: 2%;
     border-radius: 40%;
-    filter: sepia(65%);
 }
 .blog {
     width: 100%;
@@ -102,6 +102,7 @@ and (max-device-width: 1346px)
     .myName {
         width: 110%;
         font-size: 4vh;
+        margin-top: 2%;
         margin-left: 10%;
         font-family: "Lucida Calligraphy", sans-serif;
         font-weight: bold;
@@ -120,7 +121,6 @@ and (max-device-width: 1346px)
         margin-left: 17%;
         margin-top: 7%;
         border-radius: 40%;
-        filter: sepia(65%);
     }
     .main2 {
         grid-area: main2;

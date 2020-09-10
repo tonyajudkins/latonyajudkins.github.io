@@ -23,6 +23,12 @@ class BlogRoom extends Component {
         <ul className={'blogList'}>
           <li>
             <a
+              href={' https://news.microsoft.com/on-the-issues/2020/09/02/digital-skills-grants-icstars-tech-diversity/'}
+              className={'blogTitle'}
+              target="_blank"> Microsoft: On the Issues
+            </a>
+          </li><li>
+            <a
               href={'https://www.linkedin.com/pulse/change-starts-reimagining-yolanda-seals-coffield/'}
               className={'blogTitle'}
               target="_blank">
