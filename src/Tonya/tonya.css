@@ -83,7 +83,7 @@ and (max-device-width: 1346px)
     .container{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 30% 30% 30% 10%;
+        grid-template-rows: 30% 30% 40%;
         grid-template-areas:
                 "top top"
                 "main main"
@@ -115,7 +115,7 @@ and (max-device-width: 1346px)
         margin-left: 45%;
     }
     .me {
-        width: 90%;
+        width: 100%;
         height: 60%;
         margin-left: 17%;
         margin-top: 7%;
@@ -126,6 +126,7 @@ and (max-device-width: 1346px)
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-areas: "photo blog";
+        margin-top: 2%;
 
     }
     .blog {
@@ -151,10 +152,11 @@ and (max-device-width: 1346px)
     }
     .techLife {
         grid-area: main;
-        margin-top: 6.3px;
+        margin-top: 0;
     }
     .myCard {
         grid-area: corner;
-        margin-top: 185%;
+        margin-left: 0;
+        margin-top: 200%;
     }
 }
