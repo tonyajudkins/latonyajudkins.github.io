@@ -37,7 +37,6 @@
     margin-left: 15%;
 }
 .me {
-    transform: rotate(90deg);
     width: 60%;
     margin-left: 42%;
     margin-top: 2%;
@@ -84,7 +83,7 @@ and (max-device-width: 1346px)
     .container{
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 30% 25% 30% 15%;
+        grid-template-rows: 30% 30% 30% 10%;
         grid-template-areas:
                 "top top"
                 "main main"
@@ -101,7 +100,7 @@ and (max-device-width: 1346px)
     }
     .myName {
         width: 110%;
-        font-size: 4vh;
+        font-size: 5vh;
         margin-top: 2%;
         margin-left: 10%;
         font-family: "Lucida Calligraphy", sans-serif;
@@ -110,7 +109,7 @@ and (max-device-width: 1346px)
     }
     .subTitle {
         width: 100%;
-        font-size: 2vh;
+        font-size: 3vh;
         font-family: "Lucida Handwriting", sans-serif;
         color: blue;
         margin-left: 45%;
