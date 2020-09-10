@@ -34,10 +34,9 @@ video:active, video:focus {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 1346px)
-and (-webkit-device-pixel-ratio: 2)
     /*and (orientation: landscape) {*/ {
     .blogRoom {
-        font-size: 3.8vh;
+        font-size: 3vh;
         font-weight: bold;
         margin: 0 0 -3% 5%;
     }
@@ -57,7 +56,7 @@ and (-webkit-device-pixel-ratio: 2)
         width: 105%
     }
     .built {
-        margin-left: 38%;
+        margin-left: 8%;
         margin-top: 1%;
         border-radius: 20%;
         width: 65%;
@@ -68,14 +67,17 @@ and (-webkit-device-pixel-ratio: 2)
     .bh {
         color: midnightblue;
         margin-top: 8%;
+        margin-left: 13%;
         text-decoration: none !important;
     }
     video {
         border-radius: 15%;
+        width: 115%;
+        margin-left: -13%;
     }
     #myvideo {
         margin-top: 2%;
-        width: 100%;
-        height: 100%;
+        width: 110%;
+        height: 110%;
     }
 }

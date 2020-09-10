@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/TechLife.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/TechLife.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/TechLife.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/TechLife.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tonya/Components/myCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,6 +96,7 @@
       <workItem from="1589821291804" duration="492000" />
       <workItem from="1589838052838" duration="6472000" />
       <workItem from="1589986119020" duration="8060000" />
+      <workItem from="1599686687487" duration="10667000" />
     </task>
     <task id="LOCAL-00001" summary="removed -b master">
       <created>1589597822715</created>

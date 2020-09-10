@@ -9,7 +9,7 @@ class PhotoGallery extends Component {
     return (
       <div className={'photo'}>
         <div className={'photoGallery'}>
-          Photo Gallery
+          Moments to Remember
         </div>
         <div className={'gallery'}>
           Coming Soon <span>&#129335;&#127997;</span><span>&#129335;&#127997;</span><span>&#129335;&#127997;</span>

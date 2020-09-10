@@ -5,7 +5,7 @@ import helloWorld from './Assets/helloWorld.png';
 
 function App() {
   return (
-    <div>
+    <div className={'appContainer'}>
       <Tonya />
   
       <div className={'footContainer'}>

@@ -17,9 +17,6 @@ const TechLife = () =>{
         <div className={'life'} >
           I am a huge advocate for <span className={'wit'}>WOMEN IN TECHNOLOGY</span> and diversity and inclusion.
         </div>
-        <div className={'life'} >
-          I love the sense of accomplishment when I working with code.  My journey into technology was not the easiest.  It took me thru my most challenging experiences and headaches.  It took so much dedication and determination to keep my focus on my goals.  Now I have a reimagined future.
-        </div>
       </div>
     );
 };

@@ -66,7 +66,7 @@
 }
 .techLife {
     grid-area: main;
-    margin-top: 13%;
+    margin-top: 5%;
 }
 .myCard {
     grid-area: corner;
@@ -83,8 +83,8 @@ and (max-device-width: 1346px)
 
     .container{
         display: grid;
-        grid-template-columns:auto auto;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 25% 30% 15%;
         grid-template-areas:
                 "top top"
                 "main main"
@@ -93,39 +93,39 @@ and (max-device-width: 1346px)
     .top {
         grid-area: top;
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 80% 20%;
         grid-template-areas: "header corner";
     }
     .header {
         grid-area: header;
     }
     .myName {
-        width: 107%;
-        font-size: 6vh;
+        width: 110%;
+        font-size: 4vh;
+        margin-left: 10%;
         font-family: "Lucida Calligraphy", sans-serif;
         font-weight: bold;
         color: midnightblue;
-        margin-left: 0;
     }
     .subTitle {
-        width: 150%;
-        font-size: 4vh;
+        width: 100%;
+        font-size: 2vh;
         font-family: "Lucida Handwriting", sans-serif;
         color: blue;
-        margin-left: 25%;
+        margin-left: 45%;
     }
     .me {
-        width: 85%;
-        height: 70%;
-        margin-left: 3%;
-        margin-top: 5%;
+        width: 90%;
+        height: 60%;
+        margin-left: 17%;
+        margin-top: 7%;
         border-radius: 40%;
         filter: sepia(65%);
     }
     .main2 {
         grid-area: main2;
         display: grid;
-        grid-template-columns: 45% 55%;
+        grid-template-columns: 50% 50%;
         grid-template-areas: "photo blog";
 
     }
@@ -133,18 +133,12 @@ and (max-device-width: 1346px)
         grid-area: blog;
         background-color: #cac9c9;
         border-radius: 2%;
-        margin-top: 15%;
+        margin-top: 35%;
         padding-right: 10%;
     }
     .photo {
         grid-area: photo;
         margin-top: 10%;
-    }
-    .girlCoder {
-        grid-area: main;
-        width: 45%;
-        margin: 3% 0 30% 35%;
-        transform: rotate(30deg);
     }
     .girl {
         width: 30%;
@@ -158,11 +152,10 @@ and (max-device-width: 1346px)
     }
     .techLife {
         grid-area: main;
-        margin-top: 25%;
+        margin-top: 6.3px;
     }
     .myCard {
         grid-area: corner;
         margin-top: 185%;
-        margin-left: 0;
     }
 }
