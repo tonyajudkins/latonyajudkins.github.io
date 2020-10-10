@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Tonya/Components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,12 +48,13 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Tonya/Components" />
+      <recent name="$PROJECT_DIR$/src/Assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Assets" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,6 +90,8 @@
       <workItem from="1589838052838" duration="6472000" />
       <workItem from="1589986119020" duration="8060000" />
       <workItem from="1599686687487" duration="12620000" />
+      <workItem from="1601649837561" duration="697000" />
+      <workItem from="1602296768939" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="removed -b master">
       <created>1589597822715</created>
