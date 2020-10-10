@@ -9,6 +9,7 @@ li {
 }
 ul {
     margin-bottom: 10%;
+    list-style-type: none;
 }
 .blogTitle {
     font-size: 3vh;

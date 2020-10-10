@@ -1,0 +1,33 @@
+Portfolio {
+    grid-area: rightTop;
+}
+
+.portfolio {
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 2% 0 4% 10%
+}
+.myPortfolio {
+    margin: 35% 1% auto 15%;
+    background-color: #a1b7c4;
+    border-radius: 2%;
+}
+.react {
+    margin-left: 3%;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.aws {
+    margin-left: 3%;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.portfList {
+    font-size: 2.2vh;
+    margin-right: 30%;
+    padding: 0;
+}
+.descr {
+    margin-left: 15%;
+    margin-right: -11%;
+}
