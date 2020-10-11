@@ -5,6 +5,7 @@ import PhotoGallery from "./Components/PhotoGallery";
 import TechLife from "./Components/TechLife";
 import MyCard from "./Components/myCard";
 import Portfolio from "./Components/Portfolio";
+import Tbot from "./Components/Tbot";
 
 class Tonya extends Component {
     render() {
@@ -22,6 +23,7 @@ class Tonya extends Component {
                 <MyCard/>
               </div>
               <Portfolio/>
+              <Tbot />
               <div className={'main2'} >
                 
                 <BlogRoom />
