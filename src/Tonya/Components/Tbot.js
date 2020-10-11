@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import tBot from '../../Assets/TBot.png';
 
 class Tbot extends Component {
   constructor(props){
@@ -17,7 +18,15 @@ class Tbot extends Component {
   }
   
   render() {
-    return(<div>🤦🏾‍♀️</div>)
+    return(<div>
+      <div className={'nameT'}>
+        Welcome, My name is 'T'.
+      </div>
+      <div className={'hi'}>
+        <div className={'personal'}>I am Tonya's personal bot.</div> Don't be rude... Say Hi...
+      </div>
+      <img className={'tBotBig'} src={tBot} width={'22%'}/>
+      ️</div>)
   }
   
 }

@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import video from "../../Assets/blackHistory1.mp4";
-import video2 from "../../Assets/blackHistory2.mp4";
-
 class PhotoGallery extends Component {
   
   render() {
@@ -13,7 +10,7 @@ class PhotoGallery extends Component {
         </div>
       
         <a
-          href={'https://www.youtube.com/watch?v=FzkGGJmqi88'}
+          href={'https://drive.google.com/file/d/1vDLuigx7PI8pbi-8LkqxX6P11cGTBUuZ/view?usp=sharing'}
           className={'blogTitle first'}
           target="_blank"> My First Technical Presentation
         </a>

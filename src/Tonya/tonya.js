@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import me from '../Assets/tj.jpg';
+import me from '../Assets/Tmiling.jpg';
 import BlogRoom from "./Components/BlogRoom";
 import PhotoGallery from "./Components/PhotoGallery";
 import TechLife from "./Components/TechLife";
 import MyCard from "./Components/myCard";
 import Portfolio from "./Components/Portfolio";
-import Tbot from "./Components/Tbot";
 
 class Tonya extends Component {
     render() {
@@ -23,7 +22,6 @@ class Tonya extends Component {
                 <MyCard/>
               </div>
               <Portfolio/>
-              <Tbot />
               <div className={'main2'} >
                 
                 <BlogRoom />
