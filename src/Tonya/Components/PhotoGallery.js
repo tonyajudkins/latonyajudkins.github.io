@@ -35,7 +35,7 @@ class PhotoGallery extends Component {
           Photo Gallery:
         </div>
         <div className={'slideImage'}>
-        <AliceCarousel className={'slides'} autoPlay autoPlayInterval="3000" infinite={true} disableButtonsControls={true} disableDotsControls={true}>
+        <AliceCarousel autoPlay autoPlayInterval="3000" infinite={true} disableButtonsControls={true} disableDotsControls={true}>
           {slideImages.map((img, i) => <img key={i} src={img} alt={'hello'} arrows={'false'} className={'imgSlides'} />)}
         </AliceCarousel>
         </div>

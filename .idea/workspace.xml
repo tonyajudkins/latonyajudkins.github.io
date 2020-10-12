@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Assets/1999.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/ADuncan.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/alumni.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/helen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/prom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/us.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/beingMe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/myBook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/resume.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/resumeLatonya copy.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/resumeWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/tj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/webResume.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/BlogRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/GirlCoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/GirlCoder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/PhotoGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/Tbot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/Tbot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/myCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/myCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tonya/tonya.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/tonya.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +92,7 @@
       <workItem from="1601649837561" duration="697000" />
       <workItem from="1602296768939" duration="9398000" />
       <workItem from="1602382383623" duration="1011000" />
-      <workItem from="1602446449334" duration="15955000" />
+      <workItem from="1602446449334" duration="16453000" />
     </task>
     <task id="LOCAL-00001" summary="removed -b master">
       <created>1589597822715</created>
