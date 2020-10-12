@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
-import geek from '../../Assets/geekMe.jpg'
-import teaPots from '../../Assets/teaPots.jpg'
-import Paylocity from '../../Assets/Paylocity.jpg'
-import tea from '../../Assets/High Tea with Steven.jpg'
-import { Zoom } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+import geek from '../../Assets/geekMe.jpg';
+import teaPots from '../../Assets/teaPots.jpg';
+import budB from '../../Assets/budB.jpg';
+ import prom from '../../Assets/prom.jpg';
+import helen from '../../Assets/helen.jpg';
+ import yass from '../../Assets/1999.jpg';
+import alumni from '../../Assets/alumni.jpg';
+ import ADuncan from '../../Assets/ADuncan.jpeg';
+import Paylocity from '../../Assets/Paylocity.jpg';
+import tea from '../../Assets/High Tea with Steven.jpg';
 
 
-const slideImages = [
-  tea,
-  geek,
-  Paylocity,
-  teaPots
-];
+const slideImages = [tea, geek, prom, helen, yass, alumni, ADuncan, budB, Paylocity, teaPots];
 
 class PhotoGallery extends Component {
   render() {
@@ -25,7 +26,7 @@ class PhotoGallery extends Component {
         <a
           href={'https://drive.google.com/file/d/1vDLuigx7PI8pbi-8LkqxX6P11cGTBUuZ/view?usp=sharing'}
           className={'blogTitle first'}
-          target="_blank"> My First Technical Presentation
+          target="_blank" rel="noopener noreferrer" > My First Technical Presentation
         </a>
         <br />
         <br />
@@ -33,9 +34,11 @@ class PhotoGallery extends Component {
         <div className={'gallery'}>
           Photo Gallery:
         </div>
-        <Zoom className={'slides'} arrows={'false'}>
-          {slideImages.map((img, i) => <img key={i} src={img} width={'80%'} arrows={'false'}/>)}
-        </Zoom>
+        <div className={'slideImage'}>
+        <AliceCarousel className={'slides'} autoPlay autoPlayInterval="3000" infinite={true} disableButtonsControls={true} disableDotsControls={true}>
+          {slideImages.map((img, i) => <img key={i} src={img} alt={'hello'} arrows={'false'} className={'imgSlides'} />)}
+        </AliceCarousel>
+        </div>
       </div>
     );
   }

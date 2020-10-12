@@ -25,13 +25,13 @@ class BlogRoom extends Component {
             <a
               href={' https://news.microsoft.com/on-the-issues/2020/09/02/digital-skills-grants-icstars-tech-diversity/'}
               className={'blogTitle'}
-              target="_blank"> Microsoft: On the Issues
+              target="_blank" rel="noopener noreferrer" > Microsoft: On the Issues
             </a>
           </li><li>
             <a
               href={'https://www.linkedin.com/pulse/change-starts-reimagining-yolanda-seals-coffield/'}
               className={'blogTitle'}
-              target="_blank">
+              target="_blank" rel="noopener noreferrer" >
               Change starts by reimagining <span className={'BlogAuthor'}>by: Yolanda Seals Coffield</span>
             </a>
           </li>
@@ -40,7 +40,7 @@ class BlogRoom extends Component {
             <a
               href="https://www.builtinchicago.org/2020/03/12/why-engineers-use-pair-programming?utm_source=press_kit&utm_medium=social_media&utm_campaign=statsperform"
               className={'blogTitle'}
-              target="_blank">
+              target="_blank" rel="noopener noreferrer" >
               Built In Chicago: How These Chicago Tech Companies Use Pair Programming
             </a>
             <img src={built} alt="BIT" width={'40%'} align={'top'} className={'built'}/>

@@ -81,8 +81,7 @@
 
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 1346px)
-    /*and (orientation: landscape) {*/ {
+and (max-device-width: 1346px) {
 
     .container{
         display: grid;
@@ -91,6 +90,7 @@ and (max-device-width: 1346px)
         grid-template-areas:
                 "top top"
                 "main main"
+                "mainM mainM"
                 "main2 main2";
     }
     .top {
@@ -106,7 +106,7 @@ and (max-device-width: 1346px)
         width: 110%;
         font-size: 5vh;
         margin-top: 2%;
-        margin-left: 10%;
+        margin-left: 1%;
         font-family: "Lucida Calligraphy", sans-serif;
         font-weight: bold;
         color: midnightblue;
@@ -162,5 +162,8 @@ and (max-device-width: 1346px)
         grid-area: corner;
         margin-left: -2%;
         margin-top: 200%;
+    }
+    .portfolio {
+        grid-area: rightTop;
     }
 }

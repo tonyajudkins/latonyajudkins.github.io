@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import tBot from '../../Assets/TBot.png';
 
 class Tbot extends Component {
-  constructor(props){
-    super(props);
-  }
   
   componentDidMount() {
       (function(d, m){
@@ -25,7 +22,7 @@ class Tbot extends Component {
       <div className={'hi'}>
         <div className={'personal'}>I am Tonya's personal bot.</div> Don't be rude... Say Hi...
       </div>
-      <img className={'tBotBig'} src={tBot} width={'22%'}/>
+      <img className={'tBotBig'} src={tBot} width={'22%'} alt={'hello T'}/>
       ️</div>)
   }
   

@@ -1,6 +1,5 @@
 import React from 'react';
 import girlCoder from '../../Assets/girlCoder.png';
-import me from "../../Assets/beingMe.jpg";
 
 
 const GirlCoder = () => {
