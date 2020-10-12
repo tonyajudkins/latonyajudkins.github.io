@@ -4,10 +4,16 @@
     margin: 4% 0 1% 10%;
 }
 .gallery {
-    font-size: 12vh;
+    font-size: 2.5vh;
     color: indigo;
-    margin-left: 10%;
-    margin-bottom: 22%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+.slides {
+    width: 70%;
+}
+.react-slideshow-container .default-nav{
+    opacity: 0;
 }
 
 @media only screen
@@ -21,7 +27,7 @@ and (max-device-width: 1346px)
         margin: 4% 0 1% 2%;
     }
     .gallery {
-        font-size: 6vh;
+        font-size: 2vh;
         color: indigo;
         margin-left: 10%;
         margin-bottom: 22%;
