@@ -1,40 +1,35 @@
 @import './Tonya/tonya.css';
-html, body {
-  width: 100%;
-  margin: 0;
-  box-sizing: border-box;
-}
+@media only screen
+and (min-device-width: 1347px) {
 
 body {
   background: lightgray;
   font-family: Roboto, sans-serif;
-  margin: 1%;
   position: relative;
 }
 .footContainer {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 25% 50% 25%;
   grid-template-areas:
-        " left right ";
+        " left middle right ";
 }
 .copyright {
+  grid-area: middle;
+  text-align: center;
   font-size: 2vh;
-  grid-area: left;
-  margin-top: 20%;
+  margin-top: -10%;
 }
 .footer {
   grid-area: right;
   color: lightgrey;
-  position: absolute;
-  padding-top: 10%;
+  margin-top: -40%;
   right: 0;
-  width: 15%;
+  width: 100%;
 }
-
+}
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 1346px)
-  /*and (orientation: landscape) {*/ {
+and (max-device-width: 1346px) {
 
   body {
     background: lightgray;

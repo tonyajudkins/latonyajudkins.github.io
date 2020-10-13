@@ -5,31 +5,36 @@ import PhotoGallery from "./Components/PhotoGallery";
 import TechLife from "./Components/TechLife";
 import MyCard from "./Components/myCard";
 import Portfolio from "./Components/Portfolio";
+import NavBar from "./Components/NavBar";
 
 class Tonya extends Component {
     render() {
         return (
             <div className={'container'}>
               
+              <NavBar/>
+              
               <div className={'top'}>
                 <div className={'header'}>
-                
-                <div className={'myName'}>Tonya Judkins</div>
-                <div className={'subTitle'}>-based on a true story</div>
-                <img className={'me'} src={me}  alt='beingMe' />
+                  <div className={'myName'}>Tonya Judkins</div>
+                  <div className={'subTitle'}>-based on a true story</div>
+                  <img className={'me'} src={me}  alt='beingMe' />
               </div>
-              
                 <MyCard/>
               </div>
-              <Portfolio/>
-              <div className={'main2'} >
-                
+              
+                <Portfolio/>
+  
+               <TechLife/>
+               
                 <BlogRoom />
+              
+  
+              <div className={'photo'} >
                 <PhotoGallery />
-            </div>
-                
-                <TechLife/>
-                
+              </div>
+              
+              
             </div>
         );
     }

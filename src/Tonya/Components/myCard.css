@@ -1,27 +1,33 @@
-.card {
-   font-size: 3.3vh;
-}
-.social {
-    padding: 0 6%;
-    font-size: 2.5vh;
-}
-.socialIcon {
-    margin-left: 1%;
-    width: 3%;
-}
-.resume {
-    margin-top: -3%;
-    margin-left: 20%;
-    font-size: 3vh;
-}
-a{
-    text-decoration: none;
+@media only screen
+and (min-device-width: 1347px) {
+    .card {
+        font-size: 3.3vh;
+    }
+
+    .social {
+        padding: 0.5% 6%;
+        font-size: 2.5vh;
+    }
+
+    .socialIcon {
+        margin-left: -10%;
+        width: 12%;
+    }
+
+    .resume {
+        margin-top: 15%;
+        margin-left: 15%;
+        font-size: 3vh;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
 
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 1346px)
-    /*and (orientation: landscape) {*/ {
+and (max-device-width: 1346px) {
 
     .card {
         padding-left: 0;

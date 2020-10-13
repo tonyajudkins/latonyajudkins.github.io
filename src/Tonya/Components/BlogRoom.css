@@ -1,7 +1,10 @@
+@media only screen
+and (min-device-width: 1347px) {
+
 .blogRoom {
-    font-size: 5vh;
-    font-weight: bolder;
-    margin: 2% 0 4% 10%;
+font-size: 5vh;
+font-weight: bolder;
+margin: 2% 0 4% 10%;
 }
 li {
     margin-left: 10%;
@@ -29,13 +32,12 @@ video {
 }
 video:active, video:focus {
     outline: none;
-
+}
 }
 
 @media only screen
 and (min-device-width: 320px)
-and (max-device-width: 1346px)
-    /*and (orientation: landscape) {*/ {
+and (max-device-width: 1346px) {
     .blogRoom {
         font-size: 3vh;
         font-weight: bold;
