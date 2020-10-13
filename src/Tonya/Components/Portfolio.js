@@ -22,8 +22,8 @@ const Portfolio = () => {
         </ul>
         <div className={'aws'}> AWS Innovates:</div>
         <ul className={'portfList'}>
-          <li> <Link to={'/tbot'} target="_blank" rel="noopener noreferrer" > <img className={'tBot'} src={tBot} width={'15vw'} alt={'hello T'}/>
-            &nbsp;&nbsp; T-Bot (my personal bot)</Link></li>
+          <li> <a href={' https://tbot2020.github.io/'} target="_blank" rel="noopener noreferrer" > <img className={'tBot'} src={tBot} width={'15vw'} alt={'hello T'}/>
+            &nbsp;&nbsp; T-Bot (my personal bot)</a></li>
         </ul>
       </div>
     </div>
