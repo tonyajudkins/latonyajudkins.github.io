@@ -18,7 +18,7 @@ class BlogRoom extends Component {
     };
     
     return (
-      <div className={'blog'}>
+      <div className={'blog'} id='blog'>
         <div className={'blogRoom'}>Blog Room</div>
         <ul className={'blogList'}>
           <li>

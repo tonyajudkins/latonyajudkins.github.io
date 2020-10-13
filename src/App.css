@@ -51,7 +51,7 @@ and (max-device-width: 1346px) {
     color: lightgrey;
     width: 50%;
     z-index: -1;
-    margin-left: 60%;
+    margin-left: 70%;
   }
   .copyright {
     text-align: center;

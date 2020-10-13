@@ -25,7 +25,7 @@ class Tonya extends Component {
               
                 <Portfolio/>
   
-               <TechLife/>
+               <TechLife />
                
                 <BlogRoom />
               

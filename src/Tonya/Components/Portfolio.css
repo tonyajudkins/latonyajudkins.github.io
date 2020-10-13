@@ -103,7 +103,7 @@ and (max-device-width: 1346px) {
     margin: -15vh auto -2vh 50vw;
 }
 .nameT {
-    margin: 10vh auto 5vh 20vw;
+    margin: 10vh -1vw 5vh 20vw;
     font-size: 4vh;
     color: midnightblue;
 }
@@ -112,6 +112,7 @@ and (max-device-width: 1346px) {
     font-size: 3vh;
     color: lightgrey;
     padding-left: 1vw;
+    width: 27%;
     background-color: midnightblue;
     position: relative;
     -moz-border-radius: 2%;

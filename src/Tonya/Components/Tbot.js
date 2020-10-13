@@ -15,7 +15,7 @@ class Tbot extends Component {
   }
   
   render() {
-    return(<div>
+    return(<div className={'bott'}>
       <div className={'nameT'}>
         Welcome, My name is 'T'.
       </div>

@@ -21,6 +21,21 @@ and (min-device-width: 1347px) {
     grid-area: nav;
     background-color: gray;
 }
+nav li {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+nav ul {
+    margin-bottom: 3vh;
+}
+nav li a {
+ display: block;
+font-size: 3vh;
+ color: #bac6de;
+ text-align: center;
+ text-decoration: none;
+ }
 .top {
     grid-area: header;
     grid-template-columns: 23% 77%;
@@ -76,6 +91,9 @@ and (min-device-width: 1347px) {
     grid-area: corner;
     margin: -35% 58% 16% 0;
 }
+.bott {
+    margin-bottom: 35%;
+}
 }
 
 @media only screen
@@ -129,7 +147,6 @@ and (max-device-width: 1346px) {
     background-color: #cac9c9;
     border-radius: 2vw;
     margin-top: 2vh;
-    padding-right: 10vw;
     }
 .photo {
     grid-area: photo;
@@ -155,5 +172,8 @@ and (max-device-width: 1346px) {
 .navBar {
     width: 0.1vw;
     display: none;
+}
+.bott {
+    margin-bottom: 90%;
 }
 }

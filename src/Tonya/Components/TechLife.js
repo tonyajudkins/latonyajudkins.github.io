@@ -2,7 +2,7 @@ import React from 'react';
 
 const TechLife = () =>{
     return (
-      <div className={'techLife'}>
+      <div className={'techLife'} id='about'>
         <div className={'tech'} >
           About Me
         </div>

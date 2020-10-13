@@ -4,7 +4,7 @@ import tBot from '../../Assets/TBot.png';
 
 const Portfolio = () => {
   return (
-    <div className={'myPortfolio'}>
+    <div className={'myPortfolio'} id='portf'>
       <div className={'portfolio'}>
         My Portfolio
       </div>

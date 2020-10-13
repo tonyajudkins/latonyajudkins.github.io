@@ -18,7 +18,7 @@ const slideImages = [tea, geek, prom, helen, yass, alumni, ADuncan, budB, Payloc
 class PhotoGallery extends Component {
   render() {
     return (
-      <div className={'photo'}>
+      <div className={'photo'} id='photo'>
         <div className={'photoGallery'}>
           Moments to Remember:
         </div>
