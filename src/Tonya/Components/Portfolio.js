@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className={'portfolio'}>
         My Portfolio
       </div>
-      <div className={'?'}>
+      <div>
         <div className={'react'}> React Apps:</div>
         <ul className={'portfList'}>
           <li> <a href={'https://drive.google.com/file/d/1TIVS6AAelKgJaVcspq3ibzGyGJWgRmAi/view?usp=sharing'} target="_blank" rel="noopener noreferrer" > PCTY Social (My first React app) </a></li>
@@ -22,7 +22,7 @@ const Portfolio = () => {
         </ul>
         <div className={'aws'}> AWS Innovates:</div>
         <ul className={'portfList'}>
-          <li> <Link to={'/tbot'} target="_blank" rel="noopener noreferrer" > <img className={'tBot'} src={tBot} width={'5%'} alt={'hello T'}/>
+          <li> <Link to={'/tbot'} target="_blank" rel="noopener noreferrer" > <img className={'tBot'} src={tBot} width={'15vw'} alt={'hello T'}/>
             &nbsp;&nbsp; T-Bot (my personal bot)</Link></li>
         </ul>
       </div>

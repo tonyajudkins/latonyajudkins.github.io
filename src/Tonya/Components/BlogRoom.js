@@ -27,7 +27,9 @@ class BlogRoom extends Component {
               className={'blogTitle'}
               target="_blank" rel="noopener noreferrer" > Microsoft: On the Issues
             </a>
-          </li><li>
+          </li>
+          <br />
+          <li>
             <a
               href={'https://www.linkedin.com/pulse/change-starts-reimagining-yolanda-seals-coffield/'}
               className={'blogTitle'}
@@ -35,6 +37,7 @@ class BlogRoom extends Component {
               Change starts by reimagining <span className={'BlogAuthor'}>by: Yolanda Seals Coffield</span>
             </a>
           </li>
+          <br />
           <br />
           <li className={'builtTitle'}>
             <a

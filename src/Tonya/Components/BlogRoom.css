@@ -41,46 +41,42 @@ and (max-device-width: 1346px) {
     .blogRoom {
         font-size: 3vh;
         font-weight: bold;
-        margin: 0 0 -3% 5%;
+        margin: 2vh 0 2vh 5vw;
     }
     li {
         margin-left: 0;
-        margin-bottom: 2%;
     }
     ul {
-        margin-bottom: 10%;
+        margin-bottom: 5vh;
+        list-style-type: none;
     }
     .blogTitle {
         font-size: 2.3vh;
         text-decoration: underline;
     }
     .blogList {
-        padding-left: 1%;
-        width: 105%
+        padding-left: 3vw;
     }
     .built {
-        margin-left: 8%;
-        margin-top: 1%;
-        border-radius: 20%;
-        width: 65%;
+        margin-left: 8vw;
+        margin-top: 1vw;
+        border-radius: 20vw;
+        width: 65vw;
     }
     .builtTitle {
-        margin-top: -5%;
+        margin-top: -5vw;
     }
     .bh {
         color: midnightblue;
-        margin-top: 8%;
-        margin-left: 13%;
+        margin-top: 8vw;
         text-decoration: none !important;
     }
     video {
-        border-radius: 15%;
-        width: 115%;
-        margin-left: -13%;
+        border-radius: 15vw;
     }
     #myvideo {
-        margin-top: 2%;
-        width: 110%;
-        height: 110%;
+        margin-top: 2vw;
+        width: 90vw;
+        height: 55vw;
     }
 }

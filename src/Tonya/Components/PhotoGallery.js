@@ -20,15 +20,14 @@ class PhotoGallery extends Component {
     return (
       <div className={'photo'}>
         <div className={'photoGallery'}>
-          Moments to Remember
+          Moments to Remember:
         </div>
-      
+      <br/>
         <a
           href={'https://drive.google.com/file/d/1vDLuigx7PI8pbi-8LkqxX6P11cGTBUuZ/view?usp=sharing'}
           className={'blogTitle first'}
           target="_blank" rel="noopener noreferrer" > My First Technical Presentation
         </a>
-        <br />
         <br />
         <br />
         <div className={'gallery'}>

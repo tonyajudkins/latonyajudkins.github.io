@@ -82,87 +82,78 @@ and (min-device-width: 1347px) {
 and (min-device-width: 320px)
 and (max-device-width: 1346px) {
 
-    .container{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 30% 30% 40%;
-        grid-template-areas:
-                "top top"
-                "main main"
-                "mainM mainM"
-                "main2 main2";
+.container {
+    grid-area: body;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+            "header"
+            "me"
+            "portf"
+            "blog"
+            "photo";
     }
-    .top {
-        grid-area: top;
-        display: grid;
-        grid-template-columns: 80% 20%;
-        grid-template-areas: "header corner";
+.top {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 80vw 20vw;
+    grid-template-areas: "header corner";
     }
-    .header {
-        grid-area: header;
+.header {
+    grid-area: header;
     }
-    .myName {
-        width: 110%;
-        font-size: 5vh;
-        margin-top: 2%;
-        margin-left: 1%;
-        font-family: "Lucida Calligraphy", sans-serif;
-        font-weight: bold;
-        color: midnightblue;
+.myName {
+    font-size: 5vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    font-family: "Lucida Calligraphy", sans-serif;
+    font-weight: bold;
+    color: midnightblue;
+}
+.subTitle {
+    font-size: 3vh;
+    font-family: "Lucida Handwriting", sans-serif;
+    color: blue;
+    margin-left: 25vw;
+}
+.me {
+    width: 70vw;
+    height: 40vh;
+    transform: scaleX(-1);
+    margin-left: 3vw;
+    margin-top: 3vh;
+    border-radius: 25vw;
+}
+.blog {
+    grid-area: blog;
+    background-color: #cac9c9;
+    border-radius: 2vw;
+    margin-top: 2vh;
+    padding-right: 10vw;
     }
-    .subTitle {
-        width: 100%;
-        font-size: 3vh;
-        font-family: "Lucida Handwriting", sans-serif;
-        color: blue;
-        margin-left: 45%;
+.photo {
+    grid-area: photo;
     }
-    .me {
-        width: 100%;
-        height: 60%;
-        transform: scaleX(-1);
-        margin-left: 17%;
-        margin-top: 7%;
-        border-radius: 40%;
+.girl {
+    width: 30vw;
+    height: 15vw;
     }
-    .main2 {
-        grid-area: main2;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-areas: "photo blog";
-
+.coder {
+    font-size: 2vh;
+    margin-left: -10vw;
+    font-weight: bold;
+    color: #6c016d;
     }
-    .blog {
-        grid-area: blog;
-        background-color: #cac9c9;
-        border-radius: 2%;
-        margin-top: 35%;
-        padding-right: 10%;
+.techLife {
+    grid-area: me;
+    margin: 5vh 0;
     }
-    .photo {
-        grid-area: photo;
-        margin-top: 10%;
+.myCard {
+    grid-area: corner;
+    margin: 20vh -20vw 0 -1vh;
     }
-    .girl {
-        width: 30%;
-        height: 15%;
-    }
-    .coder {
-        font-size: 2vh;
-        margin-left: -10%;
-        font-weight: bold;
-        color: #6c016d;
-    }
-    .techLife {
-        grid-area: main;
-        margin-top: 0;
-    }
-    .myCard {
-        grid-area: corner;
-        margin-left: -2%;
-        margin-top: 200%;
-    }
-    .portfolio {
-        grid-area: p;
-    }
+.navBar {
+    width: 0.1vw;
+    display: none;
+}
 }
