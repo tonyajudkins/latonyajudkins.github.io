@@ -1,19 +1,13 @@
 import React from 'react';
 import './App.css';
 import Tonya from "./Tonya/tonya";
-import Tbot from "./Tonya/Components/Tbot";
 import helloWorld from './Assets/helloWorld.png';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function App() {
   return (
-    <Router basename={'/'}>
     <div className={'appContainer'}>
-      <Switch>
-        <Route exact path={'/'} component={Tonya}/>
-        <Route exact path={'/tbot'} component={Tbot}/>
-      </Switch>
+        <Tonya />
   
       <div className={'footContainer'}>
       
@@ -25,7 +19,6 @@ function App() {
       
       </div>
     </div>
-    </Router>
   );
 }
 
