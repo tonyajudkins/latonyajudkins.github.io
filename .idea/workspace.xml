@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tonya/Components/Portfolio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,8 @@
       <workItem from="1602446449334" duration="16573000" />
       <workItem from="1602542188712" duration="1000" />
       <workItem from="1602590383994" duration="15934000" />
-      <workItem from="1602621754781" duration="379000" />
+      <workItem from="1602621754781" duration="747000" />
+      <workItem from="1602708828948" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="removed -b master">
       <created>1589597822715</created>
