@@ -24,7 +24,7 @@ class PhotoGallery extends Component {
         </div>
       <br/>
         <a
-          href={'https://drive.google.com/file/d/1vDLuigx7PI8pbi-8LkqxX6P11cGTBUuZ/view?usp=sharing'}
+          href={'https://sites.google.com/view/tonyajudkins-presentation1/home'}
           className={'blogTitle first'}
           target="_blank" rel="noopener noreferrer" > My First Technical Presentation
         </a>
