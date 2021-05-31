@@ -3,6 +3,7 @@ import linkedin from '../../Assets/linkedIn.svg';
 import facebook from '../../Assets/facebook.svg';
 import github from '../../Assets/github.svg';
 import resume from '../../Assets/resume.svg';
+import resumeDoc from '../../Assets/resumeLatonya.docx';
 
 const MyCard = () =>{
  
@@ -14,7 +15,7 @@ const MyCard = () =>{
           <li className={'social'}> <a href={'https://www.github.com/latonyajudkins'} target="_blank" rel="noopener noreferrer" ><img className={'socialIcon'}  src={github} alt={'git'} /> GitHub </a></li>
           
         </ul>
-        <div className={'resume'}> <a href={"https://sites.google.com/view/tonyaresume/home"} target="_blank" rel="noopener noreferrer" ><img className={'socialIcon'}  width={'15%'} src={resume} alt={'resume'}/> Resume</a> </div>
+        <div className={'resume'}> <a href={resumeDoc}  ><img className={'socialIcon'}  width={'15%'} src={resume} alt={'resume'}/> Resume</a> </div>
       </div>
     );
 };
