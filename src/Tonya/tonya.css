@@ -57,6 +57,7 @@ font-size: 3vh;
     font-family: "Lucida Handwriting", sans-serif;
     color: rgb(40, 40, 180);
     margin-left: 60%;
+    font-weight: 500;
     margin-top: -1%;
 }
 .me {
@@ -131,9 +132,11 @@ and (max-device-width: 1346px) {
 }
 .subTitle {
     font-size: 3vh;
+    font-weight: 400;
     font-family: "Lucida Handwriting", sans-serif;
-    color: blue;
-    margin-left: 25vw;
+    color: rgb(40, 40, 180);
+    margin-left: 45%;
+    margin-top: -1%;
 }
 .me {
     width: 70vw;
