@@ -1,0 +1,53 @@
+@media only screen
+and (min-device-width: 1347px) {
+.photoGallery {
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 4% 0 1% 0;
+}
+.gallery {
+    font-size: 3vh;
+    color: indigo;
+    margin: 2% 5%;
+}
+.slideImage {
+    margin-left: 9%;
+    width: 35vw;
+}
+.imgSlides{
+    width: 100%;
+    height: 60vh;
+}
+.first{
+    margin: 2% 5%;
+}
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px) {
+    .photoGallery {
+        font-size: 3vh;
+        width: 130vw;
+        font-weight: bold;
+        margin: 4vh 0 1vh 2vw;
+    }
+    .gallery {
+        font-size: 2.7vh;
+        color: #003882;
+        margin-left: 5vw;
+        margin-bottom: 2vh;
+    }
+    .first {
+        font-size: 2.7vh;
+        margin-left: 5vw;
+    }
+    .imgSlides{
+        width: 109vw;
+        height: 50vh;
+    }
+    .slideImage {
+        margin-left: 9vw;
+        width: 90vw;
+    }
+}

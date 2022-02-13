@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="update resume">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="ProjectId" id="1bwomlcHspiQAQp9jGkuDMNsVOA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assets" />
+      <recent name="$PROJECT_DIR$/src/Tonya/Components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a2e369c-7ac9-462b-a0bc-63e82e1fac80" name="Default Changelist" comment="" />
+      <created>1589552677152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589552677152</updated>
+      <workItem from="1589552678255" duration="467000" />
+      <workItem from="1589597608358" duration="337000" />
+      <workItem from="1589745472136" duration="952000" />
+      <workItem from="1589746472864" duration="5827000" />
+      <workItem from="1589753535968" duration="1771000" />
+      <workItem from="1589811375632" duration="888000" />
+      <workItem from="1589812511065" duration="1101000" />
+      <workItem from="1589821291804" duration="492000" />
+      <workItem from="1589838052838" duration="6472000" />
+      <workItem from="1589986119020" duration="8060000" />
+      <workItem from="1599686687487" duration="12620000" />
+      <workItem from="1601649837561" duration="697000" />
+      <workItem from="1602296768939" duration="9398000" />
+      <workItem from="1602382383623" duration="1011000" />
+      <workItem from="1602446449334" duration="16573000" />
+      <workItem from="1602542188712" duration="1000" />
+      <workItem from="1602590383994" duration="15934000" />
+      <workItem from="1602621754781" duration="747000" />
+      <workItem from="1602708828948" duration="675000" />
+      <workItem from="1606878189767" duration="184000" />
+      <workItem from="1621260862172" duration="596000" />
+      <workItem from="1621270077973" duration="2049000" />
+      <workItem from="1622504577804" duration="1916000" />
+      <workItem from="1622506894850" duration="581000" />
+    </task>
+    <task id="LOCAL-00001" summary="removed -b master">
+      <created>1589597822715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589597822715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1589745670350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589745670350</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update resume">
+      <created>1622505306981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622505306981</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update resume">
+      <created>1622505367335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622505367335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="removed -b master" />
+    <MESSAGE value="test" />
+    <MESSAGE value="update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="update resume" />
+  </component>
+</project>

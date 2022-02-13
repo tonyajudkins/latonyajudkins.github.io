@@ -1,0 +1,136 @@
+@media only screen
+and (min-device-width: 1347px) {
+
+.portfolio {
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 2% 0 4% 10%
+}
+.myPortfolio {
+    grid-area: portf;
+    margin: 15% 1% auto 15%;
+    background-color: #bac6de;
+    border-radius: 2%;
+}
+.react {
+    margin-left: 3%;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.aws {
+    margin-left: 3%;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.portfList {
+    font-size: 2.2vh;
+    margin-right: 30%;
+    padding: 0;
+}
+.descr {
+    margin-left: 15%;
+    margin-right: -11%;
+}
+.tBotBig {
+    margin: -15% auto -2% 50%;
+}
+.nameT {
+    margin: 10% auto 5% 20%;
+    font-size: 4vh;
+    color: midnightblue;
+}
+.hi {
+    margin: 1% 55% -5% 20%;
+    font-size: 3vh;
+    color: lightgrey;
+    padding-left: 1%;
+    background-color: midnightblue;
+    position: relative;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    border-radius: 4%;
+}
+.hi:before {
+    content: "";
+    position: absolute;
+    left: 99.9%;
+    bottom: 3vh;
+    width: 0;
+    height: 0;
+    border-bottom: 2vh solid transparent;
+    border-left: 4.5vh solid midnightblue;
+    border-top: 2vh solid transparent;
+}
+.personal {
+    margin: 2% auto 1.5% 4%;
+}
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1346px) {
+
+.portfolio {
+    font-size: 5vh;
+    font-weight: bolder;
+    margin: 2vh 0 4vh 10vw
+}
+.myPortfolio {
+    grid-area: portf;
+    background-color: #bac6de;
+    border-radius: 2%;
+}
+.react {
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.aws {
+    margin-left: 3vw;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.portfList {
+    font-size: 2.2vh;
+    margin-left: 7vw;
+    margin-right: 30vw;
+    padding: 0;
+}
+.descr {
+    margin-left: 15vw;
+    margin-right: -11vw;
+}
+.tBotBig {
+    margin: -15vh auto -2vh 50vw;
+}
+.nameT {
+    margin: 10vh -1vw 5vh 20vw;
+    font-size: 4vh;
+    color: midnightblue;
+}
+.hi {
+    margin: 1vh 55vw -5vh 20vw;
+    font-size: 3vh;
+    color: lightgrey;
+    padding-left: 1vw;
+    width: 27%;
+    background-color: midnightblue;
+    position: relative;
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    border-radius: 4%;
+}
+.hi:before {
+    content: "";
+    position: absolute;
+    left: 99.9%;
+    bottom: 3vh;
+    width: 0;
+    height: 0;
+    border-bottom: 2vh solid transparent;
+    border-left: 4.5vh solid midnightblue;
+    border-top: 2vh solid transparent;
+}
+.personal {
+    margin: 2vh auto 1.5vh 4vw;
+}
+}
