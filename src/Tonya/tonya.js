@@ -17,7 +17,7 @@ class Tonya extends Component {
               <div className={'top'}>
                 <div className={'header'}>
                   <div className={'myName'}>Tonya Judkins</div>
-                  <div className={'subTitle'}>-based on a true story</div>
+                  <div className={'subTitle'}><span role="img"> 👩🏽‍💻 </span>Girl Coder</div>
                   <img className={'me'} src={me}  alt='beingMe' />
               </div>
                 <MyCard/>

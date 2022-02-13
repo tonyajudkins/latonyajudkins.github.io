@@ -26,7 +26,7 @@ class PhotoGallery extends Component {
         <a
           href={'https://sites.google.com/view/tonyajudkins-presentation1/home'}
           className={'blogTitle first'}
-          target="_blank" rel="noopener noreferrer" > My First Technical Presentation
+          target="_blank" rel="noopener noreferrer" > <span role="img" >🎥  </span>My First Technical Presentation
         </a>
         <br />
         <br />

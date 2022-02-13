@@ -9,7 +9,7 @@ and (min-device-width: 1347px) {
 .container{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 4% 28% 18% 35% ;
+    grid-template-rows: 4% 28% 18% 42% ;
     grid-template-areas:
             "nav nav"
             "header portf"
@@ -53,10 +53,11 @@ font-size: 3vh;
     margin: 2% auto 1% 15%;
 }
 .subTitle {
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     font-family: "Lucida Handwriting", sans-serif;
-    color: blue;
-    margin-left: 30%;
+    color: rgb(40, 40, 180);
+    margin-left: 60%;
+    margin-top: -1%;
 }
 .me {
     width: 60%;
